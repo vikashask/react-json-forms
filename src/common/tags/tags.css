@@ -1,0 +1,8 @@
+.MuiAutocomplete-root .MuiAutocomplete-tag{
+    border-radius: 25px;
+    color: #2196F3;
+    border: 1px solid #2196F3;
+    height: 34px;
+    background-color: transparent;
+    min-width: 85px;
+}

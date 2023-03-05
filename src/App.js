@@ -15,8 +15,8 @@ import customDropDownTester from "./common/dropdown/customDropDownTester";
 // import FileUploadInputTester from "./common/fileUpload/FileUploadInputTester";
 import CustomTagsController from "./common/tags/CustomTagsController";
 import customTagsTester from "./common/tags/customTagsTester";
-// import CustomTextInputController from "./common/textInput/CustomTextInputController";
-// import customTextInputTester from "./common/textInput/customTextInputTester";
+import CustomTextInputController from "./common/textInput/CustomTextInputController";
+import customTextInputTester from "./common/textInput/customTextInputTester";
 import { useState } from "react";
 import { JsonForms } from "@jsonforms/react";
 
@@ -30,10 +30,10 @@ function App() {
       tester: customDropDownTester("Category/properties/id"),
       renderer: CustomDropDownController,
     },
-    // {
-    //   tester: customTextInputTester("SurveyLink"),
-    //   renderer: CustomTextInputController,
-    // },
+    {
+      tester: customTextInputTester("SurveyLink"),
+      renderer: CustomTextInputController,
+    },
     // {
     //   tester: customTextInputTester("CardHeaderText"),
     //   renderer: CustomTextInputController,
